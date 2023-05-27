@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import TodoList from './Components/folder-structure/Todo-list';
+import Account from './REDUX/Account/Account';
+import AccountForApp from './REDUX/Account/AccountForApp';
 
 function App() {
   return (
-    <div className="App">
-     <TodoList/>
+    <div >
+     <AccountForApp/>
     </div>
   );
 }
