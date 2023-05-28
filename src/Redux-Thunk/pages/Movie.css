@@ -1,0 +1,37 @@
+.movie-div{
+    background-color: rgb(220, 214, 227);
+    border: 2px solid rgb(136, 102, 102);
+    width: 20vw;
+    height: 55vh;
+    padding-left: .8rem;
+    border-radius: 20px;
+    color: rgb(57, 59, 54);
+}
+.display-card{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  padding: 10px;
+}
+img{
+    width: 8vw;
+    margin: 1rem;
+    margin-left: 3.5rem;
+    transition: transform .4s;
+}
+img:hover {
+    -ms-transform: scale(5.5); 
+    -webkit-transform: scale(5.5);
+    transform: scale(1.2); 
+}
+button{
+    margin-left: 4.5em;
+    font-size:1rem ;
+    width:8vw;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgb(174, 141, 163);
+}
+button:hover{
+    background-color: green;
+}

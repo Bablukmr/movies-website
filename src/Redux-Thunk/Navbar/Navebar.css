@@ -1,0 +1,25 @@
+.main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(138, 138, 177);
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.div-icon {
+    margin: 1rem;
+}
+
+.div-link {
+    color: white;
+    padding: 2rem;
+    font-size: 22px;
+  
+ 
+}
+
+.div-link a{
+    color: aliceblue;
+    margin:0vh 2vw ;
+    text-decoration: none;
+}
