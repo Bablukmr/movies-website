@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Redux-Thunk/pages/Home";
 import Favorite from "./Redux-Thunk/pages/Favorite";
@@ -17,6 +18,8 @@ function App() {
           </Routes>
         </BrowserRouter>
       </Provider>
+
+
     </div>
   );
 }
