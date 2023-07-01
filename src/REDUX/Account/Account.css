@@ -1,0 +1,34 @@
+*{
+    background-color: rgb(47, 121, 74);
+}
+.main-div{
+    border: 1px solid;
+   margin: 5vh 5vw;
+    height: 40vh;
+   
+    border-radius: 15px;
+    padding-left: 15vw;
+}
+input{
+    border-radius: 10px;
+    width: 20%;
+    height: 1.8rem;
+    background-color: rgb(78, 142, 142);
+}
+input:hover{
+    background-color: rgb(170, 124, 191);
+}
+button{
+    height: 2.2rem;
+    margin: 10px;
+    font-size: 22px;
+    border: 2px solid;
+    border-radius: 10px;
+   
+}
+button:hover{
+    transform: rotate(5deg);
+    background-color: rgb(136, 121, 151);
+    transition: .5s;
+   border: none;
+}
